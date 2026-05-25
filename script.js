@@ -31,9 +31,38 @@ const projects = [
   },
   {
         images: [
-        "Projects/kitchen/kitchen4/k4.JPG",
-        "projects/kitchen/kitchen4/k4a.JPG",
-        "projects/kitchen/kitchen4/k4b.JPG"
+        "Projects/kitchen/k5.JPG"
+    ]
+  },
+  {
+    images: [
+      "Projects/kitchen/kitchen6/k6.JPG",
+      "Projects/kitchen/kitchen6/k6a.JPG",
+    ]
+  },
+  {
+    images: [
+      "Projects/kitchen/k7.JPG",
+    ]
+  },
+  {
+    images: [
+      "Projects/kitchen8/k8.JPG",
+      "Projects/kitchen8/k8a.JPG",
+      "Projects/kitchen8/k8b.JPG",
+      "Projects/kitchen8/k8c.JPG",
+    ]
+  },
+  {
+    images: [
+      "Projects/kitchen/k9.JPG"
+    ]
+  },
+  {
+    images: [
+      "Projects/kitchen/kitchen9/k9.JPG",
+      "Projects/kitchen/kitchen9/k9a.JPG",
+      "Projects/kitchen/kitchen9/k9b.JPG"
     ]
   }
 ];
