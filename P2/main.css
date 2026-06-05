@@ -373,3 +373,25 @@ main {
 html {
     scroll-behavior: smooth;
 }
+
+/* Caption under main carousel image */
+.carousel-caption {
+    text-align: center;
+    padding: 12px 0 8px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    background: rgba(8, 8, 8, 0.95);
+    margin-top: -4px;
+}
+
+.carousel-link:hover .carousel-caption {
+    color: #9c7b64;
+}
+
+/* Make the whole card clickable nicely */
+.carousel-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
