@@ -1,7 +1,7 @@
 const projects = [
   {
     images: [
-      "Projects/livingroom/livingroom/l.jpg",
+      "Projects/livingroom/livingroom/l.JPG",
     ]
   },
   {
@@ -32,12 +32,12 @@ const projects = [
   },
   {
     images: [
-        "Projects/livingroom/livingroom5/l5.jpg",
-        "Projects/livingroom/livingroom5/l5a.jpg",
-        "Projects/livingroom/livingroom5/l5b.jpg",
-        "Projects/livingroom/livingroom5/l5c.jpg",
-        "Projects/livingroom/livingroom5/l5d.jpg",
-        "Projects/livingroom/livingroom5/l5e.jpg"
+        "Projects/livingroom/livingroom5/l5.JPG",
+        "Projects/livingroom/livingroom5/l5a.JPG",
+        "Projects/livingroom/livingroom5/l5b.JPG",
+        "Projects/livingroom/livingroom5/l5c.JPG",
+        "Projects/livingroom/livingroom5/l5d.JPG",
+        "Projects/livingroom/livingroom5/l5e.JPG"
     ]
   },
   {
@@ -62,8 +62,8 @@ const projects = [
   },
   {
     images: [
-        "Projects/livingroom/livingroom10/l10.jpg",
-        "Projects/livingroom/livingroom10/l10a.jpg",
+        "Projects/livingroom/livingroom10/l10.JPG",
+        "Projects/livingroom/livingroom10/l10a.JPG",
     ]
   },
   {

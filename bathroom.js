@@ -1,107 +1,107 @@
 const projects = [
   {
     images: [
-      "Projects/bathroom/bathroom/b.jpg",
-      "Projects/bathroom/bathroom/ba.jpg",
-      "Projects/bathroom/bathroom/bb.jpg",
+      "Projects/bathroom/bathroom/b.JPG",
+      "Projects/bathroom/bathroom/ba.JPG",
+      "Projects/bathroom/bathroom/bb.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom1/b1.jpg",
-      "Projects/bathroom/bathroom1/b1a.jpg",
-      "Projects/bathroom/bathroom1/b1b.jpg",
+      "Projects/bathroom/bathroom1/b1.JPG",
+      "Projects/bathroom/bathroom1/b1a.JPG",
+      "Projects/bathroom/bathroom1/b1b.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom2/b2.jpg",
+        "Projects/bathroom/bathroom2/b2.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom3/b3.jpg",
-      "Projects/bathroom/bathroom3/b3a.jpg",
+      "Projects/bathroom/bathroom3/b3.JPG",
+      "Projects/bathroom/bathroom3/b3a.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom4/b4.jpg",
+      "Projects/bathroom/bathroom4/b4.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom5/b5.jpg",
-        "Projects/bathroom/bathroom5/b5a.jpg",
-        "Projects/bathroom/bathroom5/b5b.jpg",
+        "Projects/bathroom/bathroom5/b5.JPG",
+        "Projects/bathroom/bathroom5/b5a.JPG",
+        "Projects/bathroom/bathroom5/b5b.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom6/b6.jpg",
+      "Projects/bathroom/bathroom6/b6.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom7/b7.jpg",
+        "Projects/bathroom/bathroom7/b7.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom8/b8.jpg",
+        "Projects/bathroom/bathroom8/b8.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom9/b9.jpg",
+        "Projects/bathroom/bathroom9/b9.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom10/b10.jpg",
-        "Projects/bathroom/bathroom10/b10a.jpg",
-        "Projects/bathroom/bathroom10/b10b.jpg",
+        "Projects/bathroom/bathroom10/b10.JPG",
+        "Projects/bathroom/bathroom10/b10a.JPG",
+        "Projects/bathroom/bathroom10/b10b.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom11/b11.jpg",
-        "Projects/bathroom/bathroom11/b11a.jpg",
+        "Projects/bathroom/bathroom11/b11.JPG",
+        "Projects/bathroom/bathroom11/b11a.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom12/b12.jpg",
+        "Projects/bathroom/bathroom12/b12.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom13/b13.jpg",
+        "Projects/bathroom/bathroom13/b13.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom14/b14.jpg",
+        "Projects/bathroom/bathroom14/b14.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom15/b15.jpg",
+        "Projects/bathroom/bathroom15/b15.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom16/b16.jpg",
+        "Projects/bathroom/bathroom16/b16.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom17/b17.jpg",
+        "Projects/bathroom/bathroom17/b17.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom18/b18.jpg",
+        "Projects/bathroom/bathroom18/b18.JPG",
     ]
   },
 ];

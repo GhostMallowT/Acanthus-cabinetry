@@ -1,40 +1,40 @@
 constProjects = [
   {
     images: [
-      "Projects/bedroom/bedroom/bed.jpg",
+      "Projects/bedroom/bedroom/bed.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom1/bed1.jpg",
+      "Projects/bedroom/bedroom1/bed1.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom2/bed2.jpg",
-      "Projects/bedroom/bedroom2/bed2a.jpg",
-      "Projects/bedroom/bedroom2/bed2b.jpg",
+      "Projects/bedroom/bedroom2/bed2.JPG",
+      "Projects/bedroom/bedroom2/bed2a.JPG",
+      "Projects/bedroom/bedroom2/bed2b.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom3/bed3.jpg",
-      "Projects/bedroom/bedroom3/bed3a.jpg",
-      "Projects/bedroom/bedroom3/bed3b.jpg",
-      "Projects/bedroom/bedroom3/bed3c.jpg",
-      "Projects/bedroom/bedroom3/bed3d.jpg",
-      "Projects/bedroom/bedroom3/bed3e.jpg",
-      "Projects/bedroom/bedroom3/bed3f.jpg",
+      "Projects/bedroom/bedroom3/bed3.JPG",
+      "Projects/bedroom/bedroom3/bed3a.JPG",
+      "Projects/bedroom/bedroom3/bed3b.JPG",
+      "Projects/bedroom/bedroom3/bed3c.JPG",
+      "Projects/bedroom/bedroom3/bed3d.JPG",
+      "Projects/bedroom/bedroom3/bed3e.JPG",
+      "Projects/bedroom/bedroom3/bed3f.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom4/bed4.jpg",
+      "Projects/bedroom/bedroom4/bed4.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom5/bed5.jpg",
+      "Projects/bedroom/bedroom5/bed5.JPG",
     ]
   },
 
