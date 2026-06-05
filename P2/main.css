@@ -1,0 +1,375 @@
+/* ========================================
+   Global Styles
+   ======================================== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #f8f5f0;
+}
+
+/* ========================================
+   Header / Page Title Section
+   ======================================== */
+.page-title {
+  position: relative;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #3b2f2f 0%, #9c7b64 100%);
+  color: #fff;
+  text-align: center;
+}
+
+/* ========================================
+   Title Grid Layout
+   ======================================== */
+.title-grid {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr) 130px;
+  align-items: center;
+  gap: 24px;
+  justify-items: center;
+}
+
+.title-spot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-spot {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ========================================
+   Image Styles
+   ======================================== */
+.image-placeholder {
+  width: 100%;
+  max-width: 130px;
+  height: 130px;
+  border: 2px dashed rgba(255, 255, 255, 0.75);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 12px;
+}
+
+/* ========================================
+   Typography
+   ======================================== */
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+.page-title h1 {
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 18px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================================
+   Content Sections
+   ======================================== */
+.title-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   Carousel Section
+   ======================================== */
+.carousel {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.carousel h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #3b2f2f;
+}
+
+.carousel-container {
+  display: grid;
+  align-items: stretch;
+  justify-content: center;
+  grid-template-columns: 720px minmax(0, 1fr) 700px;
+  gap: 1px;
+  position: relative;
+  max-width: 3000px;
+  margin: 1px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-main {
+  position: relative;
+  overflow: hidden;
+  min-height: 800px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.carousel-slide.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.carousel-image {
+  max-width: 1000px;
+  height: 800px;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(59, 47, 47, 0.7);
+  color: #fff;
+  border: none;
+  padding: 16px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+
+.carousel-btn:hover {
+  background: rgba(59, 47, 47, 0.95);
+}
+
+.carousel-btn.prev {
+  left: 20px;
+}
+
+.carousel-btn.next {
+  right: 20px;
+}
+
+.carousel-dots {
+  text-align: center;
+  padding: 20px 0;
+  background: #f8f5f0;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #3b2f2f;
+}
+
+.dot:hover {
+  background-color: #999;
+}
+
+/* ========================================
+   Responsive / Mobile
+   ======================================== */
+@media (max-width: 760px) {
+  .title-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title-spot {
+    order: -1;
+  }
+
+  .carousel-container {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-btn {
+    padding: 12px 16px;
+    font-size: 18px;
+  }
+}
+
+.carousel-preview {
+  position: relative;
+  display: fixed;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  overflow: hidden;
+  padding: 0;
+  background: #f7f2ec;
+  text-align: center;
+  width: 720px;
+  height: 800px;
+  min-height: 800px;
+}
+
+.carousel-preview-left {
+  border-radius: 12px 0 0 12px;
+}
+
+.carousel-preview-right {
+  border-radius: 0 12px 12px 0;
+}
+
+.preview-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 10px;
+  font-weight: 700;
+  color: #3b2f2f;
+  z-index: 5;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-container {
+  border: 4px solid #3b2f2f;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-container{
+  background: #1a1a1a;
+  border: 4px solid #1a1a1a;
+  gap: 4px;
+}
+
+.carousel-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-link:hover .carousel-image {
+  opacity: 0.95;
+}
+
+.carousel-link, .preview-link, .section-title-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.carousel-link:hover, .preview-link:hover {
+  opacity: 0.9;
+}
+
+.carousel-link:hover img, .preview-link:hover img {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.section-title-link:hover {
+  text-decoration: underline;
+}
+
+/* FIX for preview links - Critical */
+.carousel-preview a.preview-link {
+  display: block;
+  width: 100%;
+  height: 100% !important;
+  flex: 1;
+}
+
+.carousel-preview .preview-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+/* Fixed Navigation Tabs - Always at the very top */
+.section-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #3b2f2f;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-bottom: 3px solid #9c7b64;
+}
+
+/* Add space below the fixed nav so content isn't hidden */
+main {
+    padding-top: 70px;   /* Adjust if needed */
+}
+
+/* Rest of the nav styles */
+.nav-tab {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-tab:hover,
+.nav-tab.active {
+    background: #9c7b64;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
