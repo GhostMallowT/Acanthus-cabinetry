@@ -378,15 +378,18 @@ html {
 .carousel-caption {
     text-align: center;
     padding: 12px 0 8px;
-    color: #ffffff;
-    font-size: 0.95rem;
+    color: #ffffff;           /* Made white */
+    font-size: 2rem;
     font-weight: 500;
-    background: rgba(8, 8, 8, 0.95);
+    background: rgba(0, 0, 0, 0.75);   /* Dark background for contrast */
     margin-top: -4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .carousel-link:hover .carousel-caption {
-    color: #9c7b64;
+    background: rgba(156, 123, 100, 0.9);   /* Warm highlight on hover */
+    color: #ffffff;
 }
 
 /* Make the whole card clickable nicely */

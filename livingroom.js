@@ -1,109 +1,76 @@
 const projects = [
   {
     images: [
-      "../Projects/bathroom/bathroom/b.jpg",
-      "../Projects/bathroom/bathroom/ba.jpg",
-      "../Projects/bathroom/bathroom/bb.jpg",
+      "Projects/livingroom/livingroom/l.jpg",
     ]
   },
   {
     images: [
-      "../Projects/bathroom/bathroom1/b1.jpg",
-      "../Projects/bathroom/bathroom1/b1a.jpg",
-      "../Projects/bathroom/bathroom1/b1b.jpg",
+      "Projects/livingroom/livingroom1/l1.JPG",
+        "Projects/livingroom/livingroom1/l1a.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom2/b2.jpg",
+      "Projects/livingroom/livingroom2/l2.JPG",
+      "Projects/livingroom/livingroom2/l2a.JPG",
+      "Projects/livingroom/livingroom2/l2b.JPG",
+      "Projects/livingroom/livingroom2/l2c.JPG",
+      "Projects/livingroom/livingroom2/l2d.JPG"
     ]
   },
   {
     images: [
-      "../Projects/bathroom/bathroom3/b3.jpg",
-      "../Projects/bathroom/bathroom3/b3a.jpg",
+      "Projects/livingroom/livingroom3/l3.JPG",
+      "Projects/livingroom/livingroom3/l3a.JPG",
     ]
   },
   {
     images: [
-      "../Projects/bathroom/bathroom4/b4.jpg",
+      "Projects/livingroom/livingroom4/l4.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom5/b5.jpg",
-        "../Projects/bathroom/bathroom5/b5a.jpg",
-        "../Projects/bathroom/bathroom5/b5b.jpg",
+        "Projects/livingroom/livingroom5/l5.jpg",
+        "Projects/livingroom/livingroom5/l5a.jpg",
+        "Projects/livingroom/livingroom5/l5b.jpg",
+        "Projects/livingroom/livingroom5/l5c.jpg",
+        "Projects/livingroom/livingroom5/l5d.jpg",
+        "Projects/livingroom/livingroom5/l5e.jpg"
     ]
   },
   {
     images: [
-      "../Projects/bathroom/bathroom6/b6.jpg",
+      "Projects/livingroom/livingroom6/l6.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom7/b7.jpg",
+      "Projects/livingroom/livingroom7/l7.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom8/b8.jpg",
+        "Projects/livingroom/livingroom8/l8.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom9/b9.jpg",
+      "Projects/livingroom/livingroom9/l9.JPG",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom10/b10.jpg",
-        "../Projects/bathroom/bathroom10/b10a.jpg",
-        "../Projects/bathroom/bathroom10/b10b.jpg",
+        "Projects/livingroom/livingroom10/l10.jpg",
+        "Projects/livingroom/livingroom10/l10a.jpg",
     ]
   },
   {
     images: [
-        "../Projects/bathroom/bathroom11/b11.jpg",
-        "../Projects/bathroom/bathroom11/b11a.jpg",
+      "Projects/livingroom/livingroom11/l11.JPG",
     ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom12/b12.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom13/b13.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom14/b14.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom15/b15.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom16/b16.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom17/b17.jpg",
-    ]
-  },
-  {
-    images: [
-        "../Projects/bathroom/bathroom18/b18.jpg",
-    ]
-  },
+  }
 ];
 document.addEventListener('DOMContentLoaded', () => {
   const checkboxes = document.querySelectorAll('.filter input[type="checkbox"]');
