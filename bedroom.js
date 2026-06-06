@@ -1,40 +1,31 @@
 constProjects = [
   {
     images: [
-      "Projects/bedroom/bedroom/bed.JPG",
+      "Projects/bedroom/bed/bed1.JPG",
+      "Projects/bedroom/bed/bed2.JPG",
+      "Projects/bedroom/bed/bed3.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom1/bed1.JPG",
+      "Projects/bedroom/bed1/bed1.JPG",
+      "Projects/bedroom/bed1/bed2.JPG",
+      "Projects/bedroom/bed1/bed3.JPG",
+      "Projects/bedroom/bed1/bed4.JPG",
+      "Projects/bedroom/bed1/bed5.JPG",
+      "Projects/bedroom/bed1/bed6.JPG",
+      "Projects/bedroom/bed1/bed7.JPG",
+      "Projects/bedroom/bed1/bed8.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom2/bed2.JPG",
-      "Projects/bedroom/bedroom2/bed2a.JPG",
-      "Projects/bedroom/bedroom2/bed2b.JPG",
+      "Projects/bedroom/bed2/bed1.JPG",
     ]
   },
   {
     images: [
-      "Projects/bedroom/bedroom3/bed3.JPG",
-      "Projects/bedroom/bedroom3/bed3a.JPG",
-      "Projects/bedroom/bedroom3/bed3b.JPG",
-      "Projects/bedroom/bedroom3/bed3c.JPG",
-      "Projects/bedroom/bedroom3/bed3d.JPG",
-      "Projects/bedroom/bedroom3/bed3e.JPG",
-      "Projects/bedroom/bedroom3/bed3f.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/bedroom/bedroom4/bed4.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/bedroom/bedroom5/bed5.JPG",
+      "Projects/bedroom/bed3/bed1.JPG",
     ]
   },
 
@@ -44,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const checkboxes = document.querySelectorAll('.filter input[type="checkbox"]');
   const cards = document.querySelectorAll('.gallery .card');
 
-  let currenProject = 0;
+  let currentProject = 0;
   let currentImage = 0;
 
   function filterCards() {
@@ -63,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
   lightbox.className = 'lightbox';
   lightbox.innerHTML = `
     <div class="lightbox-close">×</div>
-    <div class="lightbox-nav lightboxPrev">‹</div>
+    <div class="lightbox-nav lightbox-prev">‹</div>
     <img src="" alt="Full size image">
     <div class="lightbox-nav lightbox-next">›</div>
   `;
@@ -71,41 +62,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const lightboxImage = lightbox.querySelector('img');
   const closeButton = lightbox.querySelector('.lightbox-close');
-  constPrevButton = lightbox.querySelector('.lightboxPrev');
+  const prevButton = lightbox.querySelector('.lightbox-prev');
   const nextButton = lightbox.querySelector('.lightbox-next');
 
   function updateNav() {
-  PrevButton.style.display = currentImage > 0 ? 'block' : 'none';
-    nextButton.style.display = currentImage <Projects[currenProject].images.length - 1 ? 'block' : 'none';
+    prevButton.style.display = currentImage > 0 ? 'block' : 'none';
+    nextButton.style.display = currentImage < projects[currentProject].images.length - 1 ? 'block' : 'none';
   }
 
-  function showLightboxProjectIndex, imageIndex) {
-    currenProject =ProjectIndex;
+  function showLightbox(projectIndex, imageIndex) {
+    currentProject = projectIndex;
     currentImage = imageIndex;
-    lightboxImage.src =ProjectsProjectIndex].images[imageIndex];
+    lightboxImage.src = projects[projectIndex].images[imageIndex];
     lightbox.classList.add('open');
     updateNav();
   }
 
   cards.forEach(card => {
-    constProjectIndex = Number(card.datasetProject);
+    const projectIndex = Number(card.dataset.project);
     const img = card.querySelector('img');
     card.addEventListener('click', event => {
-      event.stoPropagation();
-      const imageIndex =ProjectsProjectIndex].images.indexOf(img.src);
-      showLightboxProjectIndex, imageIndex >= 0 ? imageIndex : 0);
+      event.stopPropagation();
+      const imageIndex = projects[projectIndex].images.indexOf(img.src);
+      showLightbox(projectIndex, imageIndex >= 0 ? imageIndex : 0);
     });
   });
 
-PrevButton.addEventListener('click', event => {
-    event.stoPropagation();
-    if (currentImage > 0) showLightbox(currenProject, currentImage - 1);
+  prevButton.addEventListener('click', event => {
+    event.stopPropagation();
+    if (currentImage > 0) showLightbox(currentProject, currentImage - 1);
   });
 
   nextButton.addEventListener('click', event => {
-    event.stoPropagation();
-    if (currentImage <Projects[currenProject].images.length - 1) {
-      showLightbox(currenProject, currentImage + 1);
+    event.stopPropagation();
+    if (currentImage < projects[currentProject].images.length - 1) {
+      showLightbox(currentProject, currentImage + 1);
     }
   });
 
@@ -119,9 +110,9 @@ PrevButton.addEventListener('click', event => {
     if (event.key === 'Escape') {
       lightbox.classList.remove('open');
     } else if (event.key === 'ArrowLeft' && currentImage > 0) {
-      showLightbox(currenProject, currentImage - 1);
-    } else if (event.key === 'ArrowRight' && currentImage <Projects[currenProject].images.length - 1) {
-      showLightbox(currenProject, currentImage + 1);
+      showLightbox(currentProject, currentImage - 1);
+    } else if (event.key === 'ArrowRight' && currentImage < projects[currentProject].images.length - 1) {
+      showLightbox(currentProject, currentImage + 1);
     }
   });
 

@@ -1,74 +1,82 @@
 const projects = [
   {
     images: [
-      "Projects/livingroom/livingroom/l.JPG",
+      "Projects/livingroom/l.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom1/l1.JPG",
-        "Projects/livingroom/livingroom1/l1a.JPG",
+      "Projects/livingroom/l1/l1.JPG",
+      "Projects/livingroom/l1/l2.JPG",
+      "Projects/livingroom/l1/l3.JPG",
+      "Projects/livingroom/l1/l4.JPG",
+      "Projects/livingroom/l1/l5.JPG",
+      "Projects/livingroom/l1/l6.JPG",
+      "Projects/livingroom/l1/l7.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom2/l2.JPG",
-      "Projects/livingroom/livingroom2/l2a.JPG",
-      "Projects/livingroom/livingroom2/l2b.JPG",
-      "Projects/livingroom/livingroom2/l2c.JPG",
-      "Projects/livingroom/livingroom2/l2d.JPG"
+      "Projects/livingroom/l2/.JPG",
+      "Projects/livingroom/l2/l.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom3/l3.JPG",
-      "Projects/livingroom/livingroom3/l3a.JPG",
+      "Projects/livingroom/l3/l1.JPG",
+      "Projects/livingroom/l3/l2.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom4/l4.JPG",
+      "Projects/livingroom/l4/l1.JPG",
+      "Projects/livingroom/l4/l2.JPG",
+      "Projects/livingroom/l4/l3.JPG",
+      "Projects/livingroom/l4/l4.JPG",
+      "Projects/livingroom/l4/l5.JPG",
+      "Projects/livingroom/l4/l6.JPG",
+      "Projects/livingroom/l4/l7.JPG",
     ]
   },
   {
     images: [
-        "Projects/livingroom/livingroom5/l5.JPG",
-        "Projects/livingroom/livingroom5/l5a.JPG",
-        "Projects/livingroom/livingroom5/l5b.JPG",
-        "Projects/livingroom/livingroom5/l5c.JPG",
-        "Projects/livingroom/livingroom5/l5d.JPG",
-        "Projects/livingroom/livingroom5/l5e.JPG"
+        "Projects/livingroom/l5/l1.JPG",
+        "Projects/livingroom/l5/l2.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom6/l6.JPG",
+      "Projects/livingroom/l6/.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom7/l7.JPG",
+      "Projects/livingroom/l7/.JPG",
     ]
   },
   {
     images: [
-        "Projects/livingroom/livingroom8/l8.JPG",
+        "Projects/livingroom/l8/.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom9/l9.JPG",
+      "Projects/livingroom/l9/.JPG",
     ]
   },
   {
     images: [
-        "Projects/livingroom/livingroom10/l10.JPG",
-        "Projects/livingroom/livingroom10/l10a.JPG",
+        "Projects/livingroom/l10/l1.JPG",
     ]
   },
   {
     images: [
-      "Projects/livingroom/livingroom11/l11.JPG",
+      "Projects/livingroom/l11/l1.JPG",
+    ]
+  }
+  {
+    images: [
+      "Projects/livingroom/l12/l1.JPG",
     ]
   }
 ];

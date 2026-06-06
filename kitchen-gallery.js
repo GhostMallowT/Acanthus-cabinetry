@@ -1,258 +1,244 @@
 const projects = [
-  {
-    images: [
-      "Projects/kitchen/kitchen/k.JPG",
-      "Projects/kitchen/kitchen/ka.JPG",
-      "Projects/kitchen/kitchen/kb.JPG",
-      "Projects/kitchen/kitchen/kc.JPG",
-      "Projects/kitchen/kitchen/kd.JPG"
+  {    images: [
+      "Projects/kitchen/k/k1.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen1/k1.JPG",
-      "Projects/kitchen/kitchen1/k1a.JPG",
-      "Projects/kitchen/kitchen1/k1b.JPG"
+      "Projects/kitchen/k1/k1.JPG",
+      "Projects/kitchen/k1/k2.JPG",
+      "Projects/kitchen/k1/k3.JPG",
+      "Projects/kitchen/k1/k4.JPG",
+      "Projects/kitchen/k1/k5.JPG",
+      "Projects/kitchen/k1/k6.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen2/k2.JPG"
+      "Projects/kitchen/k2/k1.JPG",
+      "Projects/kitchen/k2/k2.JPG",
+      "Projects/kitchen/k2/k3.JPG",
+      "Projects/kitchen/k2/k4.JPG",
+      "Projects/kitchen/k2/k5.JPG",
+      "Projects/kitchen/k2/k6.JPG",
+      "Projects/kitchen/k2/k7.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen3/k3.JPG",
-      "Projects/kitchen/kitchen3/k3a.JPG",
-      "Projects/kitchen/kitchen3/k3b.JPG"
+      "Projects/kitchen/k3/k1.JPG",
     ]
   },
   {
         images: [
-        "Projects/kitchen/kitchen4/k4.JPG",
-        "Projects/kitchen/kitchen4/k4a.JPG",
-        "Projects/kitchen/kitchen4/k4b.JPG"
+        "Projects/kitchen/k4/k1.JPG",
     ]
   },
   {
         images: [
-        "Projects/kitchen/kitchen5/k5.JPG"
+        "Projects/kitchen/k5/k1.JPG"
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen6/k6.JPG"
+      "Projects/kitchen/k6/k1.JPG"
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen7/k7.JPG",
+      "Projects/kitchen/k7/k1.JPG",
+      "Projects/kitchen/k7/k2.JPG",
+      "Projects/kitchen/k7/k3.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen8/k8.JPG",
-      "Projects/kitchen/kitchen8/k8a.JPG",
-      "Projects/kitchen/kitchen8/k8b.JPG",
-      "Projects/kitchen/kitchen8/k8c.JPG",
-      "Projects/kitchen/kitchen8/k8d.JPG"
+      "Projects/kitchen/k8/k1.JPG",
+      "Projects/kitchen/k8/k2.JPG",
+      "Projects/kitchen/k8/k3.JPG",
+      "Projects/kitchen/k8/k4.JPG",
+      "Projects/kitchen/k8/k5.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen9/k9.JPG"
+      "Projects/kitchen/k9/k1.JPG"
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen10/k10.JPG",
+      "Projects/kitchen/k10/k1.JPG",
+      "Projects/kitchen/k10/k2.JPG",
+      "Projects/kitchen/k10/k3.JPG",
+      "Projects/kitchen/k10/k4.JPG",
+      "Projects/kitchen/k10/k5.JPG",
+      "Projects/kitchen/k10/k6.JPG",
+      "Projects/kitchen/k10/k7.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen11/k11.JPG",
+      "Projects/kitchen/k11/k1.JPG",
+      "Projects/kitchen/k11/k2.JPG",
+      "Projects/kitchen/k11/k3.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen12/k12.JPG",
+      "Projects/kitchen/k12/k1.JPG",
+      "Projects/kitchen/k12/k2.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen13/k13.JPG",
+      "Projects/kitchen/k13/k1.JPG",
+      "Projects/kitchen/k13/k2.JPG",
+      "Projects/kitchen/k13/k3.JPG",
+      "Projects/kitchen/k13/k4.JPG",
+      "Projects/kitchen/k13/k5.JPG",
+      "Projects/kitchen/k13/k6.JPG",
+      "Projects/kitchen/k13/k7.JPG",
+      "Projects/kitchen/k13/k8.JPG",
+      "Projects/kitchen/k13/k9.JPG",
     ]
   },
   {
     images: [
-      "Projects/kitchen/kitchen14/k14.JPG",
-      "Projects/kitchen/kitchen14/k14a.JPG",
-      "Projects/kitchen/kitchen14/k14b.JPG",
-      "Projects/kitchen/kitchen14/k14c.JPG",
-      "Projects/kitchen/kitchen14/k14d.JPG",
-      "Projects/kitchen/kitchen14/k14e.JPG",
-      "Projects/kitchen/kitchen14/k14f.JPG",
-      "Projects/kitchen/kitchen14/k14g.JPG",
-      "Projects/kitchen/kitchen14/k14h.JPG",
-      "Projects/kitchen/kitchen14/k14i.JPG",
-      "Projects/kitchen/kitchen14/k14j.JPG",
+      "Projects/kitchen/k14/k1.JPG",
+      "Projects/kitchen/k14/k2.JPG",
     ]
  },
  {
     images: [
-      "Projects/kitchen/kitchen15/k15.JPG",
-      "Projects/kitchen/kitchen15/k15a.JPG",
-      "Projects/kitchen/kitchen15/k15b.JPG",
+      "Projects/kitchen/k15/k1.JPG",
+      "Projects/kitchen/k15/k2.JPG",
+      "Projects/kitchen/k15/k3.JPG",
+      "Projects/kitchen/k15/k4.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen16/k16.JPG",
+  {    images: [
+      "Projects/kitchen/k16/k1.JPG",
+      "Projects/kitchen/k16/k2.JPG",
+      "Projects/kitchen/k16/k3.JPG",
+      "Projects/kitchen/k16/k4.JPG",
+      "Projects/kitchen/k16/k5.JPG",
+      "Projects/kitchen/k16/k6.JPG",
+      "Projects/kitchen/k16/k7.JPG",
+      "Projects/kitchen/k16/k8.JPG",
+      "Projects/kitchen/k16/k9.JPG",
+      "Projects/kitchen/k16/k10.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen17/k17.JPG",
-      "Projects/kitchen/kitchen17/k17a.JPG",
-      "Projects/kitchen/kitchen17/k17b.JPG",
-      "Projects/kitchen/kitchen17/k17c.JPG",
+  {    images: [
+      "Projects/kitchen/k17/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen18/k18.JPG",
+  {    images: [
+      "Projects/kitchen/k18/k1.JPG",
+      "Projects/kitchen/k18/k2.JPG",
+      "Projects/kitchen/k18/k3.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen19/k19.JPG",
-      "Projects/kitchen/kitchen19/k19a.JPG",
-      "Projects/kitchen/kitchen19/k19b.JPG",
-      "Projects/kitchen/kitchen19/k19c.JPG",
-      "Projects/kitchen/kitchen19/k19d.JPG",
+  {    images: [
+      "Projects/kitchen/k19/k1.JPG",
+      "Projects/kitchen/k19/k2.JPG",
+      "Projects/kitchen/k19/k3.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen20/k20.JPG",
-      "Projects/kitchen/kitchen20/k20a.JPG",
-      "Projects/kitchen/kitchen20/k20b.JPG",
-      "Projects/kitchen/kitchen20/k20c.JPG",
-      "Projects/kitchen/kitchen20/k20d.JPG",
-      "Projects/kitchen/kitchen20/k20e.JPG",
-      "Projects/kitchen/kitchen20/k20f.JPG",
+  {    images: [
+      "Projects/kitchen/k20/k1.JPG",
+      "Projects/kitchen/k20/k2.JPG",
+      "Projects/kitchen/k20/k3.JPG",
+      "Projects/kitchen/k20/k4.JPG",
+      "Projects/kitchen/k20/k5.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen21/k21.JPG",
-      "Projects/kitchen/kitchen21/k21a.JPG",
-      "Projects/kitchen/kitchen21/k21b.JPG",
-      "Projects/kitchen/kitchen21/k21c.JPG",
-      "Projects/kitchen/kitchen21/k21d.JPG",
-      "Projects/kitchen/kitchen21/k21e.JPG",
-      "Projects/kitchen/kitchen21/k21f.JPG",
+  {    images: [
+      "Projects/kitchen/k21/k1.JPG",
+      "Projects/kitchen/k21/k2.JPG",
+      "Projects/kitchen/k21/k3.JPG",
+      "Projects/kitchen/k21/k4.JPG",
+      "Projects/kitchen/k21/k5.JPG",
+      "Projects/kitchen/k21/k6.JPG",
+      "Projects/kitchen/k21/k7.JPG",
+      "Projects/kitchen/k21/k8.JPG",
+      "Projects/kitchen/k21/k9.JPG",
+      "Projects/kitchen/k21/k10.JPG",
+      "Projects/kitchen/k21/k11.JPG",
+      "Projects/kitchen/k21/k12.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen22/k22.JPG",
-      "Projects/kitchen/kitchen22/k22a.JPG",
+  {    images: [
+      "Projects/kitchen/k22/k1.JPG",
+      "Projects/kitchen/k22/k2.JPG",
+      "Projects/kitchen/k22/k3.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen23/k23.JPG",
-      "Projects/kitchen/kitchen23/k23a.JPG",
+  {    images: [
+      "Projects/kitchen/k23/k1.JPG",
+      "Projects/kitchen/k23/k2.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen24/k24.JPG",
-      "Projects/kitchen/kitchen24/k24a.JPG",
+  {    images: [
+      "Projects/kitchen/k24/k1.JPG",
+      "Projects/kitchen/k24/k2.JPG",
+      "Projects/kitchen/k24/k3.JPG",
+      "Projects/kitchen/k24/k4.JPG",
+      "Projects/kitchen/k24/k5.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen25/k25.JPG",
-      "Projects/kitchen/kitchen25/k25a.JPG",
-      "Projects/kitchen/kitchen25/k25b.JPG",
-      "Projects/kitchen/kitchen25/k25c.JPG",
-      "Projects/kitchen/kitchen25/k25d.JPG",
+  {    images: [
+      "Projects/kitchen/k25/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen26/k26.JPG",
-      "Projects/kitchen/kitchen26/k26a.JPG",
-      "Projects/kitchen/kitchen26/k26b.JPG",
-      "Projects/kitchen/kitchen26/k26c.JPG",
-      "Projects/kitchen/kitchen26/k26d.JPG",
-      "Projects/kitchen/kitchen26/k26e.JPG",
-      "Projects/kitchen/kitchen26/k26f.JPG",
-      "Projects/kitchen/kitchen26/k26g.JPG",
-      "Projects/kitchen/kitchen26/k26h.JPG",
-      "Projects/kitchen/kitchen26/k26i.JPG",
+  {    images: [
+      "Projects/kitchen/k26/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen27/k27.JPG",
+  {    images: [
+      "Projects/kitchen/k27/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen28/k28.JPG",
+  {    images: [
+      "Projects/kitchen/k28/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen29/k29.JPG",
-      "Projects/kitchen/kitchen29/k29a.JPG",
-      "Projects/kitchen/kitchen29/k29b.JPG",
-      "Projects/kitchen/kitchen29/k29c.JPG",
-      "Projects/kitchen/kitchen29/k29d.JPG",
-      "Projects/kitchen/kitchen29/k29e.JPG",
+  {    images: [
+      "Projects/kitchen/k29/k1JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen30/k30.JPG",
-      "Projects/kitchen/kitchen30/k30a.JPG",
+  {    images: [
+      "Projects/kitchen/k30/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen31/k31.JPG",
-      "Projects/kitchen/kitchen31/k31a.JPG",
+  {    images: [
+      "Projects/kitchen/k31/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen32/k32.JPG",
-      "Projects/kitchen/kitchen32/k32a.JPG",
-      "Projects/kitchen/kitchen32/k32b.JPG",
+  {    images: [
+      "Projects/kitchen/k32/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen33/k33.JPG",
+  {    images: [
+      "Projects/kitchen/k33/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen34/k34.JPG",
+  {    images: [
+      "Projects/kitchen/k34/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen35/k35.JPG",
+  {    images: [
+      "Projects/kitchen/k35/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen36/k36.JPG",
+  {    images: [
+      "Projects/kitchen/k36/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen37/k37.JPG",
+  {    images: [
+      "Projects/kitchen/k37/k1.JPG",
     ]
  },
- {    images: [
-      "Projects/kitchen/kitchen38/k38.JPG",
-    ]
- },
-
-
-
-
-
-
-
-
-
-
-
-
 
 ];
 
@@ -263,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentProject = 0;
   let currentImage = 0;
 
-  function filterCards() {
+  function filterCards()  {
     const selectedTypes = Array.from(checkboxes)
       .filter(checkbox => checkbox.checked)
       .map(checkbox => checkbox.value);
@@ -290,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const prevButton = lightbox.querySelector('.lightbox-prev');
   const nextButton = lightbox.querySelector('.lightbox-next');
 
-  function updateNav() {
+  function updateNav()  {
     prevButton.style.display = currentImage > 0 ? 'block' : 'none';
     nextButton.style.display = currentImage < projects[currentProject].images.length - 1 ? 'block' : 'none';
   }
@@ -320,13 +306,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   nextButton.addEventListener('click', event => {
     event.stopPropagation();
-    if (currentImage < projects[currentProject].images.length - 1) {
+    if (currentImage < projects[currentProject].images.length - 1)  {
       showLightbox(currentProject, currentImage + 1);
     }
   });
 
   lightbox.addEventListener('click', event => {
-    if (event.target === lightbox || event.target === closeButton) {
+    if (event.target === lightbox || event.target === closeButton)  {
       lightbox.classList.remove('open');
     }
   });

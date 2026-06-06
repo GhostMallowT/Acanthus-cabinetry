@@ -1,109 +1,120 @@
 const projects = [
   {
     images: [
-      "Projects/bathroom/bathroom/b.JPG",
-      "Projects/bathroom/bathroom/ba.JPG",
-      "Projects/bathroom/bathroom/bb.JPG",
+      "Projects/bathroom/b/b1.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom1/b1.JPG",
-      "Projects/bathroom/bathroom1/b1a.JPG",
-      "Projects/bathroom/bathroom1/b1b.JPG",
+      "Projects/bathroom/b1/b1.JPG",
+      "Projects/bathroom/b1/b2.JPG",
+      "Projects/bathroom/b1/b3.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom2/b2.JPG",
+        "Projects/bathroom/b2/b1.JPG",
+        "Projects/bathroom/b2/b2.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom3/b3.JPG",
-      "Projects/bathroom/bathroom3/b3a.JPG",
+      "Projects/bathroom/b3/b1.JPG",
+      "Projects/bathroom/b3/b2.JPG",
+      "Projects/bathroom/b3/b3.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom4/b4.JPG",
+      "Projects/bathroom/b4/b1.JPG",
+      "Projects/bathroom/b4/b2.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom5/b5.JPG",
-        "Projects/bathroom/bathroom5/b5a.JPG",
-        "Projects/bathroom/bathroom5/b5b.JPG",
+        "Projects/bathroom/b5/b1.JPG",
+        "Projects/bathroom/b5/b2.JPG",
+        "Projects/bathroom/b5/b3.JPG",
     ]
   },
   {
     images: [
-      "Projects/bathroom/bathroom6/b6.JPG",
+      "Projects/bathroom/b6/b1.JPG",
+      "Projects/bathroom/b6/b2.JPG",
+      "Projects/bathroom/b6/b3.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom7/b7.JPG",
+        "Projects/bathroom/b7/b1.JPG",
+        "Projects/bathroom/b7/b2.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom8/b8.JPG",
+        "Projects/bathroom/b8/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom9/b9.JPG",
+        "Projects/bathroom/b9/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom10/b10.JPG",
-        "Projects/bathroom/bathroom10/b10a.JPG",
-        "Projects/bathroom/bathroom10/b10b.JPG",
+        "Projects/bathroom/b10/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom11/b11.JPG",
-        "Projects/bathroom/bathroom11/b11a.JPG",
+        "Projects/bathroom/b11/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom12/b12.JPG",
+        "Projects/bathroom/b12/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom13/b13.JPG",
+        "Projects/bathroom/b13/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom14/b14.JPG",
+        "Projects/bathroom/b14/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom15/b15.JPG",
+        "Projects/bathroom/b15/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom16/b16.JPG",
+        "Projects/bathroom/b16/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom17/b17.JPG",
+        "Projects/bathroom/b17/b1.JPG",
     ]
   },
   {
     images: [
-        "Projects/bathroom/bathroom18/b18.JPG",
+        "Projects/bathroom/b18/b1.JPG",
     ]
   },
+  {
+    images: [
+        "Projects/bathroom/b19/b1.JPG",
+    ]
+  },
+  {
+    images: [
+        "Projects/bathroom/b20/b1.JPG",
+    ]
+  }
 ];
 document.addEventListener('DOMContentLoaded', () => {
   const checkboxes = document.querySelectorAll('.filter input[type="checkbox"]');
