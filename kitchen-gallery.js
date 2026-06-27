@@ -1,5 +1,6 @@
 const projects = [
-  {    images: [
+  {    
+    images: [
       "Projects/kitchen/k/k1.JPG",
       "Projects/kitchen/k/k2.JPG",
       "Projects/kitchen/k/k3.JPG",
@@ -41,7 +42,7 @@ const projects = [
   },
   {
     images: [
-      "Projects/kitchen/k6/k1.JPG"
+      "Projects/kitchen/k6/k1.JPG",
       "Projects/kitchen/k6/k2.JPG",
       "Projects/kitchen/k6/k3.JPG",
     ]
@@ -62,7 +63,7 @@ const projects = [
   },
   {
     images: [
-      "Projects/kitchen/k9/k1.JPG"
+      "Projects/kitchen/k9/k1.JPG",
       "Projects/kitchen/k9/k2.JPG",
       "Projects/kitchen/k9/k3.JPG",
       "Projects/kitchen/k9/k4.JPG",

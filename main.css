@@ -9,56 +9,57 @@ body {
 }
 
 /* ========================================
-   Header / Page Title Section
+   Header / Hero Section
    ======================================== */
+
 .page-title {
-  position: relative;
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #3b2f2f 0%, #9c7b64 100%);
-  color: #fff;
-  text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    color: #fff;
+
+    /* Your combined ornament image */
+    background:
+        linear-gradient(rgba(59,47,47,.15), rgba(59,47,47,.15)),
+        url("titleimage/ALPmain.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-/* ========================================
-   Title Grid Layout
-   ======================================== */
-.title-grid {
-  display: grid;
-  grid-template-columns: 130px minmax(0, 1fr) 130px;
-  align-items: center;
-  gap: 24px;
-  justify-items: center;
+.title-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    padding: 20px;
 }
 
-.title-spot {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: .9rem;
+    margin-bottom: 18px;
+    opacity: .9;
 }
 
-.right-spot {
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
+.page-title h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    margin: 0;
 }
 
-/* ========================================
-   Image Styles
-   ======================================== */
-.image-placeholder {
-  width: 100%;
-  max-width: 130px;
-  height: 130px;
-  border: 2px dashed rgba(255, 255, 255, 0.75);
-  border-radius: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 12px;
+.subtitle {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ========================================
