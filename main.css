@@ -119,10 +119,10 @@ body {
   display: grid;
   align-items: stretch;
   justify-content: center;
-  grid-template-columns: 720px minmax(0, 1fr) 700px;
+  grid-template-columns: 350px minmax(0, 1fr) 320px;
   gap: 1px;
   position: relative;
-  max-width: 3000px;
+  max-width: 1700px;
   margin: 1px auto;
   overflow: hidden;
   border-radius: 12px;
@@ -133,7 +133,7 @@ body {
   position: relative;
   overflow: hidden;
   min-height: 800px;
-  max-width: 1800px;
+  max-width: 2600px;
   margin: 0 auto;
 }
 
@@ -213,24 +213,46 @@ body {
 }
 
 /* ========================================
-   Responsive / Mobile
+   Mobile / Phone Responsiveness
    ======================================== */
-@media (max-width: 760px) {
-  .title-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .title-spot {
-    order: -1;
-  }
-
+@media (max-width: 900px) {
   .carousel-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;     /* Stack everything vertically */
+    gap: 12px;
+    max-width: 100%;
+    margin: 0 15px;
+    border-radius: 12px;
+  }
+
+  .carousel-preview {
+    display: none;                  /* Hide side previews on mobile */
+  }
+
+  .carousel-main {
+    aspect-ratio: 16 / 10;          /* Wider & better for phones */
+    min-height: 380px;
   }
 
   .carousel-btn {
-    padding: 12px 16px;
-    font-size: 18px;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+
+  .preview-label {
+    font-size: 0.95rem;
+    padding: 8px 12px;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  .carousel-main {
+    min-height: 320px;
+  }
+  
+  .carousel {
+    padding: 40px 10px;
   }
 }
 
@@ -244,7 +266,7 @@ body {
   padding: 0;
   background: #f7f2ec;
   text-align: center;
-  width: 720px;
+  width: 350px;
   height: 800px;
   min-height: 800px;
 }
