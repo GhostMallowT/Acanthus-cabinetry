@@ -220,7 +220,7 @@ body {
   .carousel-container {
     grid-template-columns: 1fr;           /* Only center column */
     gap: 0;
-    max-width: 94%;
+    max-width: 100%;
     margin: 0 auto;
     border-radius: 12px;
   }
@@ -246,16 +246,6 @@ body {
   }
 }
 
-/* Extra small phones */
-@media (max-width: 480px) {
-  .carousel-main {
-    min-height: 300px;
-  }
-  
-  .carousel {
-    padding: 40px 10px;
-  }
-}
 
 .carousel-preview {
   position: relative;
