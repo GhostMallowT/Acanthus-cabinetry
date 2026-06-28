@@ -220,7 +220,7 @@ body {
   .carousel-container {
     grid-template-columns: 1fr;     /* Stack everything vertically */
     gap: 12px;
-    max-width: 100%;
+    max-width: 50%;
     margin: 0 15px;
     border-radius: 12px;
   }
