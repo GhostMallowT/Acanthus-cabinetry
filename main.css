@@ -218,38 +218,38 @@ body {
    ======================================== */
 @media (max-width: 900px) {
   .carousel-container {
-    grid-template-columns: 1fr;     /* Stack everything vertically */
-    gap: 12px;
-    max-width: 50%;
-    margin: 0 15px;
+    grid-template-columns: 1fr;           /* Only center column */
+    gap: 0;
+    max-width: 94%;
+    margin: 0 auto;
     border-radius: 12px;
   }
 
   .carousel-preview {
-    display: none;                  /* Hide side previews on mobile */
+    display: none;                        /* Completely hide side previews */
   }
 
   .carousel-main {
-    aspect-ratio: 16 / 10;          /* Wider & better for phones */
-    min-height: 380px;
+    aspect-ratio: 16 / 9.5;               /* Nice wide ratio */
+    min-height: 360px;
+    max-height: 520px;
   }
 
   .carousel-btn {
-    width: 48px;
-    height: 48px;
-    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
   }
 
   .preview-label {
-    font-size: 0.95rem;
-    padding: 8px 12px;
+    display: none;                        /* Hide labels too */
   }
 }
 
 /* Extra small phones */
 @media (max-width: 480px) {
   .carousel-main {
-    min-height: 320px;
+    min-height: 300px;
   }
   
   .carousel {
