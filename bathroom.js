@@ -20,8 +20,6 @@ const projects = [
   {
     images: [
       "Projects/bathroom/b3/b1.JPG",
-      "Projects/bathroom/b3/b2.JPG",
-      "Projects/bathroom/b3/b3.JPG",
     ]
   },
   {
@@ -98,6 +96,7 @@ const projects = [
   {
     images: [
         "Projects/bathroom/b17/b1.JPG",
+        "Projects/bathroom/b17/b2.JPG",
     ]
   },
   {

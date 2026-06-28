@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #333;
-  background: #f8f5f0;
+  background: #ffffff;
 }
 
 /* ========================================
@@ -20,17 +20,18 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-
-    color: #fff;
+    
+    color: #B28228;
 
     /* Your combined ornament image */
     background:
+        
         linear-gradient(rgba(59,47,47,.15), rgba(59,47,47,.15)),
         url("Titleimage/ALPmain.png");
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .title-content {
@@ -119,7 +120,7 @@ body {
   display: grid;
   align-items: stretch;
   justify-content: center;
-  grid-template-columns: 350px minmax(0, 1fr) 320px;
+  grid-template-columns: 348px minmax(0, 1fr) 345px;
   gap: 1px;
   position: relative;
   max-width: 1700px;

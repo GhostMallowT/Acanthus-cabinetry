@@ -1,100 +1,41 @@
 const projects = [
-  {
-    images: [
-      "Projects/livingroom/l/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l1/l1.JPG",
-      "Projects/livingroom/l1/l2.JPG",
-      "Projects/livingroom/l1/l3.JPG",
-      "Projects/livingroom/l1/l4.JPG",
-      "Projects/livingroom/l1/l5.JPG",
-      "Projects/livingroom/l1/l6.JPG",
-      "Projects/livingroom/l1/l7.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l2/.JPG",
-      "Projects/livingroom/l2/l2.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l3/l1.JPG",
-      "Projects/livingroom/l3/l2.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l4/l1.JPG",
-      "Projects/livingroom/l4/l2.JPG",
-      "Projects/livingroom/l4/l3.JPG",
-      "Projects/livingroom/l4/l4.JPG",
-      "Projects/livingroom/l4/l5.JPG",
-      "Projects/livingroom/l4/l6.JPG",
-      "Projects/livingroom/l4/l7.JPG",
-    ]
-  },
-  {
-    images: [
-        "Projects/livingroom/l5/l1.JPG",
-        "Projects/livingroom/l5/l2.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l6/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l7/l1.JPG",
-    ]
-  },
-  {
-    images: [
-        "Projects/livingroom/l8/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l9/l1.JPG",
-    ]
-  },
-  {
-    images: [
-        "Projects/livingroom/l10/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l11/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l12/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l13/l1.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l14/l1.JPG",
-      "Projects/livingroom/l14/l2.JPG",
-    ]
-  },
-  {
-    images: [
-      "Projects/livingroom/l15/l1.JPG",
-    ]
-  }
+  { images: ["Projects/other/ot.JPG"]},
+  { images: ["Projects/other/ot1.JPG"] },
+  { images: ["Projects/other/ot2.JPG"] },
+  { images: ["Projects/other/ot3.JPG"] },
+  { images: ["Projects/other/ot4.JPG"] },
+  { images: ["Projects/other/ot5.JPG"] },
+  { images: ["Projects/other/ot6.JPG"] },
+  { images: ["Projects/other/ot7.JPG"] },
+  { images: ["Projects/other/ot8.JPG"] },
+  { images: ["Projects/other/ot9.JPG"] },
+  { images: ["Projects/other/ot10.JPG"] },
+  { images: ["Projects/other/ot11.JPG"] },
+  { images: ["Projects/other/ot12.JPG"] },
+  { images: ["Projects/other/ot13.JPG"] },
+  { images: ["Projects/other/ot14.JPG"] },
+  { images: ["Projects/other/ot15.JPG"] },
+  { images: ["Projects/other/ot16.JPG"] },
+  { images: ["Projects/other/ot17.JPG"] },
+  { images: ["Projects/other/ot18.JPG"] },
+  { images: ["Projects/other/ot19.JPG"] },
+  { images: ["Projects/other/ot20.JPG"] },
+  { images: ["Projects/other/ot21.JPG"] },
+  { images: ["Projects/other/ot22.JPG"] },
+  { images: ["Projects/other/ot23.JPG"] },
+  { images: ["Projects/other/ot24.JPG"] },
+  { images: ["Projects/other/ot25.JPG"] },
+  { images: ["Projects/other/ot26.JPG"] },
+  { images: ["Projects/other/ot27.JPG"] },
+  { images: ["Projects/other/ot28.JPG"] },
+  { images: ["Projects/other/ot29.JPG"] },
+  { images: ["Projects/other/ot30.JPG"] },
+  { images: ["Projects/other/ot31.JPG"] },
+  { images: ["Projects/other/ot32.JPG"] },
+  { images: ["Projects/other/ot33.JPG"] },
+  { images: ["Projects/other/ot34.JPG"] },
+  { images: ["Projects/other/ot35.JPG"] },
+  { images: ["Projects/other/ot36.JPG"] }
 ];
 document.addEventListener('DOMContentLoaded', () => {
   const checkboxes = document.querySelectorAll('.filter input[type="checkbox"]');

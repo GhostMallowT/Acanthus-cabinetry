@@ -205,7 +205,7 @@ const projects = [
     ]
  },
   {    images: [
-      "Projects/kitchen/k29/k1JPG",
+      "Projects/kitchen/k29/k1.JPG",
     ]
  },
   {    images: [
