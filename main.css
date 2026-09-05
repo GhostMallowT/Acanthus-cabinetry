@@ -232,47 +232,53 @@ body {
    ======================================== */
 @media (max-width: 900px) {
   .page-title {
-    min-height: 72vh;
-    padding: 120px 16px 40px;
+    min-height: 52vh;
+    padding: 170px 16px 28px;
     background-position: center center;
   }
 
   .title-content {
     padding: 10px 8px;
+    margin-top: 8px;
   }
 
   .eyebrow {
     letter-spacing: 0.18em;
-    font-size: 0.7rem;
-    margin-bottom: 12px;
+    font-size: 0.58rem;
+    margin-bottom: 8px;
   }
 
   .page-title h1 {
-    font-size: clamp(2.2rem, 10vw, 3.3rem);
-    line-height: 1.1;
+    font-size: clamp(1.85rem, 8vw, 2.5rem);
+    line-height: 1.08;
   }
 
   .subtitle {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-top: 14px;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    margin-top: 10px;
   }
 
   .section-nav {
     flex-wrap: wrap;
-    padding: 8px 10px;
-    gap: 6px;
+    padding: 8px 12px 10px;
+    gap: 4px;
+    row-gap: 6px;
+    justify-content: center;
   }
 
   .nav-tab {
-    padding: 8px 10px;
-    font-size: 0.75rem;
+    padding: 6px 8px;
+    font-size: 0.62rem;
+    line-height: 1.2;
     white-space: normal;
     text-align: center;
+    flex: 1 1 calc(33.333% - 8px);
+    min-width: 0;
   }
 
   main {
-    padding-top: 92px;
+    padding-top: 0;
   }
 
   .carousel {
@@ -456,7 +462,7 @@ body {
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     border-bottom: 3px solid #9c7b64;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /* Add space below the fixed nav so content isn't hidden */
@@ -484,6 +490,7 @@ main {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 110px;
 }
 
 /* Caption under main carousel image */
